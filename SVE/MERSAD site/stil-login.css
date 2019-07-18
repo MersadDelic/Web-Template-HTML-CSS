@@ -1,0 +1,136 @@
+body {
+    background-image: url('www.jpg');
+    background-size: 100%;
+    position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+input[type="text"] {
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgb(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    display: block;
+}
+
+input[type="password"] {
+    width: 250px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgb(255,255,255,0.6);
+    border-radius: 2px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    display: block;
+}
+
+input[type="button"]{
+    width: 260px;
+    height: 35px;
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #4a4b50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+input[type="button"]:hover {
+    opacity: 0.8;
+}
+
+input[type="button"]:active {
+    opacity: 0.6;
+    
+}
+
+
+input[type="text"]:focus {
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+
+input[type="password"]:focus {
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+}
+
+input[type="button"]:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255,255,255,0.6);
+}
+
+::-moz-placeholder {
+    color: rgba(255,255,255,0.6);
+}
+
+.forma {
+    position: absolute;
+    top: 250px;
+    left: 530px;
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+}
+
+h2 {
+    position: absolute;
+    top:130px;
+    left: 620px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Source Sans Pro Light';
+    
+}
+
+#usern {
+    color: white;
+    font-size: 16px;
+    font-family: calibri;
+}
+
+#pass {
+    color: white;
+    font-size: 16px;
+    font-family: calibri;
+}
+
+#poruka {
+    color: white;
+    font-size: 16px;
+    font-family: calibri;
+}
+
+.copir {
+    background-color: rgb(59, 59, 59, 0.85);
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+    color: rgb(235, 230, 230);
+    font-family: Open Sans,sans-serif;
+    position: absolute;
+    top:570px;
+    left: 34%;
+    border-radius: 7px;
+    width: 400px;
+
+}
